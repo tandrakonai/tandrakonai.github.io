@@ -44,10 +44,10 @@ html,body {
 }
 .contact {
   display: flex;
+  justify-content: space-around;
 }
 .contact>a {
   flex: 1;
-  margin: 5px;
 }
 .contact svg {
   height: 40px;
@@ -56,4 +56,9 @@ html,body {
   border-radius: 5px;
   color: rgb(180,203,253);
   background: rgb(57,61,144);
+}
+#visit-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
