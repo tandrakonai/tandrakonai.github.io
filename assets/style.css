@@ -47,8 +47,8 @@ html,body {
   justify-content: space-around;
 }
 .contact>a {
-  flex: 1;
-  width:50px;
+  width: 50px;
+  margin: 5px;
 }
 .contact svg {
   height: 40px;
